@@ -1,8 +1,5 @@
-
 public class first_project {
-
     public static void main(String[] args) {
-
 //        String stranger = "Who are you?";
 //        int a;
 //        a = 1;
@@ -27,16 +24,13 @@ public class first_project {
 //        for (int i = 0; i < array.length; i++) {
 //            System.out.println(array[i]);
 //        }
-
         int[] bob = {1, -4, 4, -28, 3};
         int max  = 0;
         for (int i = 0; i < bob.length; i++) {
             if(bob[i] > max) {
                 max = bob[i];
             }
-
         }
         System.out.println(max);
-
     }
 }
