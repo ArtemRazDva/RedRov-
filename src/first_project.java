@@ -1,3 +1,12 @@
+import jdk.jfr.Label;
+import org.w3c.dom.ls.LSOutput;
+
+import java.time.temporal.ChronoUnit;
+import java.time.LocalTime;
+import java.util.Arrays;
+import java.util.Date;
+//import java.time.temporal;
+
 public class first_project {
     public static void main(String[] args) {
 //        String stranger = "Who are you?";
@@ -24,13 +33,36 @@ public class first_project {
 //        for (int i = 0; i < array.length; i++) {
 //            System.out.println(array[i]);
 //        }
-        int[] bob = {1, -4, 4, -28, 3};
+        int a = 10;
+        int b = a;
+        b = 20;
+        System.out.println(b);
+
+        int[] arr1 = {4, 5};
+        int[] arr2 = {9, 7};
+        int[] arr3 = arr1;
+        arr2[0] = 8;
+
+        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr2));
+        System.out.println(Arrays.toString(arr3));
+
+
+
+
+        int[] array = {1, 4, 4, 28, 3};
         int max  = 0;
-        for (int i = 0; i < bob.length; i++) {
-            if(bob[i] > max) {
-                max = bob[i];
-            }
+        for (int i = 0; i < array.length; i++){
+        //for (int i : array) {
+
+                max = max + array[i];
+                //System.out.print(" " + array);
         }
         System.out.println(max);
+        //LocalDate date = LocalDate.now();
+        LocalTime time = LocalTime.now();
+        System.out.println(time);
     }
+
+
 }
