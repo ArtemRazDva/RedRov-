@@ -4,6 +4,7 @@ public class Employee extends Person {
     double salary;
 
     boolean isSameName(Employee employee) {
-        return employee.name.equals(this.name);
+
+        return employee.name.equals(name);
     }
 }

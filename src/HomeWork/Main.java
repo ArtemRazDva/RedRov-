@@ -60,7 +60,7 @@ public class Main {
         }
 
         for(i = 0; i < employeeArray.length; ++i) {
-            System.out.println(employeeArray[i].isSameName(employee3));
+            System.out.println(employeeArray[i].isSameName(employee1));
         }
 
         System.out.println(Salary.getSum(employeeArray));
