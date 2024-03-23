@@ -51,7 +51,13 @@ public class Main {
         employee3.age = 34;
         employee3.salary = 1700.0;
 
-        Employee[] employeeArray = new Employee[]{employee1, employee2, employee3};
+        Employee employee4 = new Employee();
+        employee4.name = "Kol";
+        employee4.gender = "female";
+        employee4.age = 34;
+        employee4.salary = 1700.0;
+
+        Employee[] employeeArray = new Employee[]{employee1, employee2, employee4};
         Person[] personArray = new Person[]{person1, person2, person3, person4, person5, person6};
 
         int i;
