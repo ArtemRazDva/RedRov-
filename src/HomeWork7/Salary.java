@@ -1,4 +1,4 @@
-package HomeWork;
+package HomeWork7;
 
 public class Salary {
     static double getSum(Employee[] employeeArray) {
